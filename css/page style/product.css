@@ -3,18 +3,98 @@
 }
 
 h1{
+    padding-bottom: 20px;
     font-size: 30px;
     text-decoration: underline;
 }
 
+.proudct-tems-container{
+    row-gap: 50px;
+}
+
+/* this is temparry */
+.product-img{
+    width: 33%;
+    /* flex: 40%   ; */
+    
+}
+
+/* this is temparry */
+
+.product-description{
+    flex: 50%;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.product-description-heading{
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 10px;
+    display: block;
+    font:bold;
+}
+
+.product-name{
+    display: block;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family: 'Arvo', serif;
+}
+
+.prouct-description-content{
+    row-gap: 10px;
+}
+
+
+.product-description ul{
+    row-gap: 5px;
+}
+.product-description ul li{
+    font-size: 18px;
+    transition-duration: .3s;
+    text-transform: capitalize;
+}
+
+.product-description ul li:hover{
+    transform: scale(1.05);
+}
+
+/* price box style */
+.price-container{
+    padding: 5px;
+    row-gap: 10px;
+}
+
+
+.price-without-discount{
+    color: red;
+    font-size: 24px;
+    text-decoration: line-through;
+    font: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price-discount{
+    font-size: 26px;
+    padding: 10px 20px;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* buy button style */
 .buy-now{
+    position: absolute;
+    bottom: 0;
     text-decoration: none;
     padding: 10px;
-    margin: 5px 0;
+    margin: 5px ;
     font-size: 18px;
     background-color: rgb(246, 25, 25);
     align-self: flex-start;
-    width: 10%;
     letter-spacing: .5px;
     border-radius: 5px;
     color: white;
@@ -31,14 +111,7 @@ h1{
     background-color: rgb(246, 25, 25);
 }
 
-
-/* this is temparry */
-img{
-    width: 30%;
-}
-/* this is temparry */
-
-
+/* just upperside of footer in product page */
 .conect{
     background-color: grey;
     padding: 10px;
@@ -52,6 +125,10 @@ img{
     line-height: 2rem;
 }
 
+
+
+
+/* icons style */
 
 .icons-container{
     column-gap: 20px;

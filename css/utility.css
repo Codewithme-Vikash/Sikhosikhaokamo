@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.flex-50{
+    flex: 50%;
+}
+
 .flex-column{
     flex-direction: column;
 }
@@ -34,6 +38,14 @@
 .align-item-center{
     align-items: center;
 }
+
+.align-item-flex-start{
+    align-items: flex-start;
+}
+
+.align-self-flex-start{
+    align-self: flex-start;
+}
 .width-100{
     width: 100%;
 }
@@ -46,8 +58,21 @@
     letter-spacing: .2px;
 }
 
+
+.text-transform-captilize{
+    text-transform: capitalize;
+}
+
+
 .margin-10px{
     margin: 10px 0;
 }
+
+
+/* temparay ,i will deleter it in future */
+.border{
+    border: 2px solid green;
+}
+/* temparay ,i will deleter it in future */
 
 
