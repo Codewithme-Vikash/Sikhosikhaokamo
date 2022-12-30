@@ -1,36 +1,51 @@
 #product{
-    padding: 30px 0;
+    display: flex;
+    padding: 10px 0;
 }
 
 h1{
-    padding-bottom: 20px;
-    font-size: 30px;
+    padding: 10px 0 30px 0 ;
+    font-size: 33px;
     text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Arvo', serif;
 }
 
-.proudct-tems-container{
+.proudct-items-container{
     row-gap: 50px;
 }
 
-/* this is temparry */
-.product-img{
-    width: 33%;
-    /* flex: 40%   ; */
-    
+.proudct-items-container>div{
+    column-gap: 30px;
 }
 
-/* this is temparry */
+/* proudct image */
+.proudct-img-container{
+    flex: 20%;
+}
 
+.product-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* product description */
 .product-description{
     flex: 50%;
-    position: relative;
-    /* z-index: -1; */
+    row-gap: 30px;
 }
+
+
+.product-heading-container{
+    row-gap: 10px;
+}
+
 
 .product-description-heading{
     font-size: 22px;
     text-transform: capitalize;
-    padding: 10px;
     display: block;
     font:bold;
 }
@@ -87,8 +102,6 @@ h1{
 
 /* buy button style */
 .buy-now{
-    position: absolute;
-    bottom: 0;
     text-decoration: none;
     padding: 10px;
     margin: 5px ;
@@ -99,6 +112,7 @@ h1{
     border-radius: 5px;
     color: white;
     transition-duration: .3s;
+    display: inline-block;
 }
 
 .buy-now:hover{

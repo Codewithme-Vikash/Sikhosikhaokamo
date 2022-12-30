@@ -73,6 +73,13 @@
 .border{
     border: 2px solid green;
 }
+
+.border-red{
+    border: 2px solid red;
+}
+.border-black{
+    border: 2px solid black;
+}
 /* temparay ,i will deleter it in future */
 
 
