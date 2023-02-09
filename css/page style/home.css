@@ -1,0 +1,102 @@
+.home-heading{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    text-transform: capitalize;
+    padding: 10px 0;
+    margin: 20px auto;
+    position: relative;
+    color: rgb(73, 13, 185);
+}
+
+.home-heading::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 4px ;
+    width: 100%;
+    background-color: rgb(206, 205, 205);
+}
+
+.home-heading::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 4px ;
+    width: 100%;
+    background-color: rgb(215, 210, 210);
+}
+
+
+
+.strip{
+    text-transform: uppercase;  
+    font-size: 22px;
+    padding: 20px 0;
+    background-color: rgb(226, 225, 225);
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+.ourproduct-items-content>h3{
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.ourproduct-items-content>p{
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 20px;
+    line-height: 1.3rem;
+}
+
+.why-choose-us{
+    gap: 10px;
+    padding: 20px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.why-choose-us>div{
+    flex: 25%;
+    row-gap: 10px;
+    padding: 30px 0;
+}
+
+
+
+
+.affilate{
+    row-gap: 30px;
+    padding: 50px;
+}
+.affilate-item div{
+    background-color: antiquewhite;
+}
+
+.alfilate-item>strong{
+    font-size: 18px;
+    color: blue;
+    font-family: 'Arvo', serif;
+}
+
+.alfilate-item{
+    font-family: 'Lato', sans-serif;
+    row-gap: 10px;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 3px grey;
+    width: 200px;
+    height: 180px;
+
+}
+
+.alfilate-item img{
+    width: 50%;
+    filter: grayscale(.4);
+}

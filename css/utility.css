@@ -63,6 +63,9 @@
     text-transform: capitalize;
 }
 
+.text-transform-upppercase{
+    text-transform: uppercase;
+}
 
 .margin-10px{
     margin: 10px 0;
@@ -82,4 +85,12 @@
 }
 /* temparay ,i will deleter it in future */
 
+
+.padding-10{
+    padding: 10px;
+}
+
+.padding-20{
+    padding: 20px;
+}
 
